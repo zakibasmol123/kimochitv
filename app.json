@@ -1,7 +1,7 @@
 
 {
-  "name": "TG File Sharing Bot",
-  "description": "file sharing bot store posts and it can access by special links",
+  "name": "Kimochi File Sharing Bot",
+  "description": "file sharing bot store posts sesuatu dan itu bisa diakses via link",
   "keywords": [
     "telegram",
     "file",
@@ -11,36 +11,36 @@
   "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
+      "description": "Bot Token yang kamu dapatkan di @BotFather",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "description": "Masukkan ID Owners Bot",
+      "value": "1469886916"
     },
     "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
+      "description": "APP ID kamu, bisa didapatkan di my.telegram.org",
       "value": ""
     },
     "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
+      "description": "HASH ID kamu, bisa didapatkan di my.telegram.org",
       "value": ""
     },
     "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "description": "ID Channel untuk menampung semua file, buat channel baru dan masukkan @TGIdsBot dan Bot mu sebagai admin",
+      "value": "Ketik Database Channel di channel baru, lalu teruskan ke @TGIdsBot contoh -1001213141516"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "description": "ID Channel Utama untuk memaksa member join lebih dahulu, agar bisa melihat video",
+      "value": "Ketik Database Channel di channel utama, lalu teruskan ke @TGIdsBot contoh -1001213141516"
     },
     "START_MESSAGE": {
-      "description": "Optional: start message of bot, use HTML parsemode format",
+      "description": "Pesan yang akan muncul ketika mengetik /Start di bot",
       "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "description": "List User ID yang bisa menggunakan bot, pisahkan dengan spasi",
+      "value": "contoh 1111111111 2222222222 3333333333",
       "required": false
     }
   }
